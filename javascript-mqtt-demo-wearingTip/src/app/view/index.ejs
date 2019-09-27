@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Ice_bag</title>
+        <style>
+        body {
+            background: rgb(104, 108, 109);
+            color:whitesmoke;
+            font-family: 'Courier New', Courier, monospace;
+            margin: 0;
+            padding: 10%;
+             }
+        </style>
+</head>
+<body>
+        <h1>Ice_bag 物联 INC</h1>
+            <p>本公司致力于物联网的开发和推广，拥有数量庞大的工程师和科研开发人员，净资产高达0.001万元。主要产品为物联网接入智能设备，入选2019年世界500强企业（倒数）。与西安电子科技大学有着广泛的业务交流，有着广阔的发展空间！</p>
+            <br>（我实在编不下去了）
+
+        <h2> 产品介绍：智能鱼缸</h2>
+        <p>她是一种很强大的鱼缸，内置了水温，光强等传感器，实时采集鱼缸内的数据。并通过有方n10模块上传云服务器，用户可访问本网站远程查看家中的鱼缸环境，并配有远程操控功能，真的很实用。</p>
+       <img src="https://s2.ax1x.com/2019/09/27/uuAHu6.jpg" alt="uuAHu6.jpg" border="0" /> 
+        <h2><strong>传感器状态:</strong></h2>
+                <ol>
+                    <h2>温度计</h2>
+                       <p>当前温度：<%= temperature%>C !!!</p>
+                    <h2>光强</h2>
+                       <p>当前光强:挺强的。。。</p>
+                    <h2>含氧量</h2>
+                       <p>当前含氧量:挺氧的。。。</p>
+                </ol>
+
+        <input type="button" value="刷新传感器数值" style="color: rgb(49, 145, 235);" onclick=location.reload();>
+
+        <h2>执行操作:</h2>
+            <p>加热器：<%=tips%></p>
+        <br>
+        <footer style="text-align: center;">(农民前端orz，凑合着看看吧)<br>
+                <dfn>powered by icebag</dfn></footer>
+        
+        
+      
+</body>
+</html>
